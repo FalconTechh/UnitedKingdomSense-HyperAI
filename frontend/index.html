@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UK Sense Hyper AI — Live OTC Intelligence</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="scanlines"></div><div class="grid"></div><div class="particles"></div>
+<header>
+  <div class="brand"><span class="orb"></span><div><b>UNITED KINGDOM SENSE</b><small>HYPER AI // OTC INTELLIGENCE CORE</small></div></div>
+  <div class="status"><i id="feedDot"></i><span id="feedStatus">CONNECTING</span></div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="eyebrow">SECURE MARKET ANALYSIS NODE • REAL-TIME CANDLE ENGINE</div>
+  <h1>HYPER<span>AI</span></h1>
+  <p>Multi-factor next-candle analysis powered by an authorized live market feed.</p>
+  <div class="terminal-line"><span>root@uksense</span>:~$ <b id="scanState">NEURAL SCAN ACTIVE</b><span class="cursor">_</span></div>
+</section>
+
+<section class="toolbar">
+  <select id="pair"><option>EURUSD-OTC</option><option>GBPUSD-OTC</option><option>USDJPY-OTC</option><option>EURJPY-OTC</option></select>
+  <div class="tabs">
+    <button class="active" data-tf="1m">1M</button>
+    <button data-tf="5m">5M</button><button data-tf="15m">15M</button><button data-tf="30m">30M</button>
+  </div>
+  <button class="rescan" id="rescan">⟳ DEEP SCAN</button>
+  <div class="live">● <span>LIVE NODE</span></div>
+</section>
+
+<section class="dashboard">
+  <article class="signal card">
+    <div class="label">NEXT CANDLE ANALYSIS</div>
+    <div class="scan-ring" id="scanRing"><div id="signal" class="signalText">SCANNING</div></div>
+    <div class="confidence"><span id="confidence">0.0%</span> MODEL CONFIDENCE</div>
+    <div id="quality" class="quality">CALIBRATING</div>
+    <div class="error" id="errorText"></div>
+  </article>
+
+  <article class="card">
+    <div class="label">AI CONFLUENCE MATRIX</div>
+    <div class="metric"><span>Trend</span><b id="trend">—</b></div><div class="bar"><i id="trendbar"></i></div>
+    <div class="metric"><span>Momentum</span><b id="momentum">—</b></div><div class="bar"><i id="momentumbar"></i></div>
+    <div class="metric"><span>Structure</span><b id="structure">—</b></div><div class="bar"><i id="structurebar"></i></div>
+    <div class="metric"><span>Volatility</span><b id="volatility">—</b></div><div class="bar"><i id="volatilitybar"></i></div>
+    <div class="matrix-note">4-factor consensus • adaptive weighting</div>
+  </article>
+
+  <article class="card">
+    <div class="label">SYSTEM CORE</div>
+    <div class="core"><span>LIVE DATA ADAPTER</span><b>ONLINE</b></div>
+    <div class="core"><span>CANDLE NORMALIZER</span><b>ONLINE</b></div>
+    <div class="core"><span>FEATURE ENGINE</span><b>ONLINE</b></div>
+    <div class="core"><span>NEURAL SCORING</span><b>ONLINE</b></div>
+    <div class="core"><span>VALIDATION LAYER</span><b>ONLINE</b></div>
+    <div class="core"><span>WEBSOCKET STREAM</span><b>ONLINE</b></div>
+    <div class="notice">AUTHORIZED FEED ONLY</div>
+  </article>
+</section>
+
+<section class="ticker card">
+  <span>PAIR <b id="pairName">EURUSD-OTC</b></span>
+  <span>TF <b id="tfName">1m</b></span>
+  <span>PRICE <b id="price">—</b></span>
+  <span>LAST UPDATE <b id="time">—</b></span>
+</section>
+</main>
+<footer>UNITED KINGDOM SENSE • HYPER AI • ANALYTICS ONLY • NO GUARANTEED OUTCOME</footer>
+<script src="/static/app.js"></script>
+</body></html>
